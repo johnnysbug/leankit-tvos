@@ -39,6 +39,15 @@ namespace weather.Domain
 					return string.Format(CONDITION_URL_FORMAT, code);
 				}
 			}
+			public override string ToString()
+			{
+				return string.Format("[DailyCondition: Day={0}, High={1}, Low={2}, Condition={3}, ImageUrl={4}]", Day, High, Low, Condition, ImageUrl);
+			}
+		}
+
+		public override string ToString()
+		{
+			return string.Format("[Weather: Location={0}, CurrentTemperature={1}, CurrentCondition={2}, Sunrise={3}, Sunset={4}, Forecast={5}]", Location, CurrentTemperature, CurrentCondition, Sunrise, Sunset, Forecast);
 		}
 	}
 }

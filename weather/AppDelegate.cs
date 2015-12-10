@@ -1,8 +1,5 @@
 ﻿using Foundation;
 using UIKit;
-using weather.Services;
-using System;
-using System.Threading.Tasks;
 
 namespace weather
 {
@@ -24,14 +21,6 @@ namespace weather
 		{
 			// Override point for customization after application launch.
 			// If not required for your application you can safely delete this method
-
-			Task.Run(async () =>
-			{
-				var weather = await WeatherService.Get();
-
-				Console.WriteLine(weather);
-
-			});
 				
 			return true;
 		}
