@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "weather", "weather\weather.csproj", "{B45B347B-1BFD-4BE1-981E-87AA4AA2D42B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B45B347B-1BFD-4BE1-981E-87AA4AA2D42B}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{B45B347B-1BFD-4BE1-981E-87AA4AA2D42B}.Debug|iPhone.Build.0 = Debug|iPhone
+		{B45B347B-1BFD-4BE1-981E-87AA4AA2D42B}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{B45B347B-1BFD-4BE1-981E-87AA4AA2D42B}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{B45B347B-1BFD-4BE1-981E-87AA4AA2D42B}.Release|iPhone.ActiveCfg = Release|iPhone
+		{B45B347B-1BFD-4BE1-981E-87AA4AA2D42B}.Release|iPhone.Build.0 = Release|iPhone
+		{B45B347B-1BFD-4BE1-981E-87AA4AA2D42B}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{B45B347B-1BFD-4BE1-981E-87AA4AA2D42B}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+EndGlobal
